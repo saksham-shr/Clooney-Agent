@@ -54,7 +54,7 @@ git --version
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone <repo_url>
 cd clooney-agent
 
 # Or if you have the project locally
