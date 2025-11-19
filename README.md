@@ -614,6 +614,5 @@ For issues, questions, or suggestions:
 
 ---
 
-**Made with ❤️ by the Clooney Team**
+**Made by Saksham Sharma**
 
-For more information, visit our [GitHub repository](https://github.com/your-repo).
