@@ -1,0 +1,32 @@
+{
+  "screenshot": {
+    "format": "png",
+    "quality": 95,
+    "fullPage": true,
+    "omitBackground": false
+  },
+  "viewport": {
+    "widths": [1920, 1366, 768, 375],
+    "heights": [1080, 768, 1024, 667],
+    "deviceScaleFactor": 1
+  },
+  "capture": {
+    "waitForNavigation": "networkidle",
+    "timeout": 30000,
+    "delay": 2000
+  },
+  "pages": [
+    {
+      "name": "home",
+      "url": "/"
+    },
+    {
+      "name": "projects",
+      "url": "/projects"
+    },
+    {
+      "name": "tasks",
+      "url": "/tasks"
+    }
+  ]
+}

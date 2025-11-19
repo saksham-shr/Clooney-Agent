@@ -1,0 +1,102 @@
+{
+  "agent": {
+    "name": "Clooney Frontend Agent",
+    "version": "1.0.0",
+    "description": "AI-powered frontend cloning agent using browser automation and OpenAI",
+    "author": "Clooney Team"
+  },
+  "browser": {
+    "headless": true,
+    "timeout": 60000,
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+  },
+  "capture": {
+    "fullPage": true,
+    "maxDepth": 20,
+    "maxElements": 500,
+    "captureScreenshots": true,
+    "captureDOM": true,
+    "captureStyles": true,
+    "captureInteractions": true
+  },
+  "analysis": {
+    "detectComponents": true,
+    "detectLayouts": true,
+    "extractDesignTokens": true,
+    "detectPatterns": true,
+    "identifySections": true,
+    "extractAccessibility": true
+  },
+  "generation": {
+    "framework": "next.js",
+    "styling": "tailwind",
+    "componentLibrary": "shadcn/ui",
+    "generateTests": true,
+    "generateREADME": true,
+    "generatePackageJson": true
+  },
+  "output": {
+    "format": "next.js-app-router",
+    "typescript": false,
+    "prettier": true,
+    "eslint": false
+  },
+  "pages": {
+    "home": {
+      "path": "/",
+      "generate": true
+    },
+    "projects": {
+      "path": "/projects",
+      "generate": true
+    },
+    "tasks": {
+      "path": "/tasks",
+      "generate": true
+    }
+  },
+  "components": {
+    "button": {
+      "variants": ["default", "outline", "destructive", "ghost", "secondary"],
+      "sizes": ["sm", "default", "lg", "icon"]
+    },
+    "card": {
+      "hasHeader": true,
+      "hasFooter": true,
+      "hasContent": true
+    },
+    "form": {
+      "includeValidation": true,
+      "includeErrorHandling": true
+    },
+    "input": {
+      "types": ["text", "email", "password", "number", "search", "date"],
+      "includeValidation": true
+    },
+    "navigation": {
+      "style": "horizontal",
+      "includeActive": true
+    },
+    "modal": {
+      "sizes": ["sm", "default", "lg", "xl"],
+      "hasCloseButton": true
+    }
+  },
+  "testing": {
+    "framework": "playwright",
+    "generateUnitTests": true,
+    "generateE2ETests": true,
+    "generateVisualTests": true,
+    "generateCSSTests": true
+  },
+  "reporting": {
+    "generateVisualDiff": true,
+    "generateCSSReport": true,
+    "generateSimilarityScore": true,
+    "outputFormat": "json"
+  }
+}

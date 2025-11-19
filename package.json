@@ -1,0 +1,39 @@
+{
+  "name": "clooney-frontend-agent",
+  "version": "1.0.0",
+  "description": "AI-powered frontend cloning agent using browser automation and OpenAI",
+  "main": "agent/runner.js",
+  "type": "module",
+  "scripts": {
+    "clone": "node cli/clone.js",
+    "clean": "node scripts/cleanOutput.js",
+    "prepare-screenshots": "node scripts/prepareScreenshots.js",
+    "format": "node scripts/formatCode.js",
+    "test": "node test-runner/run-tests.js",
+    "dev": "node agent/runner.js"
+  },
+  "keywords": [
+    "frontend",
+    "cloning",
+    "ai",
+    "openai",
+    "playwright",
+    "react",
+    "nextjs",
+    "tailwind"
+  ],
+  "author": "Clooney Team",
+  "license": "MIT",
+  "dependencies": {
+    "@playwright/test": "^1.40.0",
+    "openai": "^4.28.0",
+    "pixelmatch": "^5.3.0",
+    "prettier": "^3.1.0",
+    "dotenv": "^16.3.1",
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0"
+  },
+  "devDependencies": {
+    "node": ">=18.0.0"
+  }
+}

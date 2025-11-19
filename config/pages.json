@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "name": "Home",
+      "path": "/",
+      "url": "https://asana.com",
+      "components": ["Hero", "Features", "CTA"],
+      "layout": "landing",
+      "priority": 1
+    },
+    {
+      "name": "Projects",
+      "path": "/projects",
+      "url": "https://asana.com/projects",
+      "components": ["ProjectCard", "ProjectGrid", "CreateProjectModal"],
+      "layout": "dashboard",
+      "priority": 2
+    },
+    {
+      "name": "Tasks",
+      "path": "/tasks",
+      "url": "https://asana.com/tasks",
+      "components": ["TaskCard", "TaskList", "TaskFilter", "CreateTaskModal"],
+      "layout": "dashboard",
+      "priority": 3
+    }
+  ]
+}
