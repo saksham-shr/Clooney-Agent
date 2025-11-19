@@ -2,6 +2,10 @@
 
 A complete, production-ready AI-powered frontend cloning agent that automatically analyzes target websites and generates fully functional React/Next.js + Tailwind CSS clones.
 
+This project was developed as part of the Scalar Lab task requirement. Fully replicating a production-grade, live website frontend through automated UI analysis and code generation is an extremely complex problem. Achieving a pixel-perfect, fully accurate clone typically requires a sophisticated AI architecture.
+
+This serves as a strong foundation toward a fully autonomous frontend cloning system, and demonstrates substantial technical depth within practical time limits.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
 
